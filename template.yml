@@ -15,6 +15,7 @@ variables:
     \usepackage{amsmath}
     \usepackage{mathtools}
     \usepackage{unicode-math}
+    \usepackage{cancel}
 
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
