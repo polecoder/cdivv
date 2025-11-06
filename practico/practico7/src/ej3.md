@@ -6,8 +6,8 @@ Dibuje el dominio y los conjuntos de nivel de las siguientes funciones:
 
 1. $\tfrac{1}{\sqrt{x^2 + y^2}}$
 2. $\log\left(\tfrac{1 - x^2 - y^2}{x^2 + y^2}\right)$
-3. $\tg\left(\tfrac{x^2}{y}\right)$
-4. $\arctg\left(\tfrac{x^2}{y}\right)$
+3. $\tan\left(\tfrac{x^2}{y}\right)$
+4. $\arctan\left(\tfrac{x^2}{y}\right)$
 
 ## Resolución
 
@@ -74,9 +74,9 @@ Por lo tanto, tenemos que los conjuntos de nivel para cualquier $a$ son:
 
 ### Función #3
 
-- $\tg\left(\tfrac{x^2}{y}\right)$
+- $\tan\left(\tfrac{x^2}{y}\right)$
 
-Veamos el dominio de la función, para esto observemos que la función $\tg(x)$ está bien definida sii $x\neq \frac{\pi}{2}+2k\pi$ para todo $k\in\mathbb{Z}$. Apliquemos esta idea a la función.
+Veamos el dominio de la función, para esto observemos que la función $\tan(x)$ está bien definida sii $x\neq \frac{\pi}{2}+2k\pi$ para todo $k\in\mathbb{Z}$. Apliquemos esta idea a la función.
 
 $$
 \begin{aligned}
@@ -103,39 +103,39 @@ Ahora podemos pasar a los conjuntos de nivel:
 
 $$
 \begin{aligned}
-&\tg\left(\frac{x^2}{y}\right)=a\\
+&\tan\left(\frac{x^2}{y}\right)=a\\
 &=\\
-&\frac{x^2}{y}=\arctg(a)\\
+&\frac{x^2}{y}=\arctan(a)\\
 &=\\
-&y=\frac{x^2}{\arctg(a)}
+&y=\frac{x^2}{\arctan(a)}
 \end{aligned}
 $$
 
-- Por lo tanto, si $a\neq0$, entonces $C_a=\{(x,y)\in D: y=\frac{x^2}{\arctg(a)}\}$
+- Por lo tanto, si $a\neq0$, entonces $C_a=\{(x,y)\in D: y=\frac{x^2}{\arctan(a)}\}$
 
 ### Función #4
 
-- $\arctg\left(\tfrac{x^2}{y}\right)$
+- $\arctan\left(\tfrac{x^2}{y}\right)$
 
-Para el dominio solamente tenemos que excluir los puntos tales que $y=0$, pues la función $\arctg(x)$ está definida para todo $x\in\mathbb{R}$.
+Para el dominio solamente tenemos que excluir los puntos tales que $y=0$, pues la función $\arctan(x)$ está definida para todo $x\in\mathbb{R}$.
 
 - $D=\{(x,y)\in\mathbb{R}: y\neq0\}$
 
 Veamos ahora los conjuntos de nivel:
 
-- Si $a\notin(-\frac{\pi}{2},\frac{\pi}{2})$, entonces $C_a=\emptyset$, pues $\arctg(x)$ solo devuelve valores en ese intervalo.
+- Si $a\notin(-\frac{\pi}{2},\frac{\pi}{2})$, entonces $C_a=\emptyset$, pues $\arctan(x)$ solo devuelve valores en ese intervalo.
 - Si $a\in(-\frac{\pi}{2},\frac{\pi}{2})\setminus\{(0,0)\}$, entonces podemos obtener su conjunto de nivel operando:
 
 $$
 \begin{aligned}
-&\arctg\left(\frac{x^2}{y}\right)=a\\
+&\arctan\left(\frac{x^2}{y}\right)=a\\
 &\iff\\
-&\frac{x^2}{y}=\tg(a)\\
+&\frac{x^2}{y}=\tan(a)\\
 &\iff\\
-&y=\frac{x^2}{\tg(a)}
+&y=\frac{x^2}{\tan(a)}
 \end{aligned}
 $$
 
-- Por lo tanto $a\in(-\frac{\pi}{2},\frac{\pi}{2})\setminus\{(0,0)\}$, entonces $C_a=\{(x,y)\in D:y=\frac{x^2}{\tg(a)}\}$
+- Por lo tanto $a\in(-\frac{\pi}{2},\frac{\pi}{2})\setminus\{(0,0)\}$, entonces $C_a=\{(x,y)\in D:y=\frac{x^2}{\tan(a)}\}$
 
 - Si $a=0$, entonces $C_0=\{(x,y)\in D: x=0\}$
